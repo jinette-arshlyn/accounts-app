@@ -9,3 +9,5 @@ def withdraw():
         print(f"Withdrawal successful. Your new balance is {balance - amount}")
     else:
         print("Insufficient funds.")
+
+withdraw()
